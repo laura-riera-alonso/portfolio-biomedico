@@ -1,0 +1,20 @@
+# Entorno de Python usado en el TFG (versiones no fijadas; fijar con pip freeze al reproducir)
+fastai
+torch
+torchvision
+torchmetrics
+segmentation-models-pytorch
+monai
+pytorch-msssim
+nibabel
+nipype
+scikit-image
+scikit-learn
+scipy
+numpy
+opencv-python
+pydicom
+openpyxl
+matplotlib
+Pillow
+# Herramientas externas (no son paquetes pip): FSL (FLIRT, RobustFOV, Reorient2Std) y ANTs (N4BiasFieldCorrection, BrainExtraction)

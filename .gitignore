@@ -1,0 +1,31 @@
+# Datos clínicos y derivados: NUNCA subir al repositorio
+*.nii
+*.nii.gz
+*.dcm
+*.mat
+*.zip
+*.7z
+*.pth
+*.pt
+*.pkl
+*.h5
+*.csv
+*.xlsx
+*.jpg
+*.jpeg
+*.png
+!**/docs/*.png
+# Entorno
+.ipynb_checkpoints/
+__pycache__/
+.venv/
+.DS_Store
+
+# Capturas del cuadro de mando que muestran registros individuales de MIMIC-IV.
+# La licencia de PhysioNet prohibe redistribuir los datos, asi que estas no se publican.
+# Se quedan en el disco para uso propio y para ensenarlas en una entrevista.
+tfm/docs/TFM_CuadroMandos_Historial.png
+tfm/docs/TFM_CuadroMandos_RiesgoIR.png
+tfm/docs/TFM_CuadroMandos_VariablesClinicas.png
+tfm/docs/TFM_CuadroMandos_Dosis.png
+tfm/docs/TFM_CuadroMandos_Demografico.png
